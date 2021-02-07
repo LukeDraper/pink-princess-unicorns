@@ -13,11 +13,7 @@ $secondary-font: 'Open Sans', sans-serif;
 xBackground 
 
 -------------------------------- */
-
-body {
-  /* this is the page background */
-  background-color: $color-5;
-}
+@import 'partials/background';
 
 /* -------------------------------- 
 
