@@ -39,15 +39,8 @@ xNavigation
 xPage title 
 
 -------------------------------- */
+@import 'partials/page-title';
 
-main > h1 {
-  color: $color-2;
-
-  @include MQ(L) {
-    /* title goes into the header on big devices */
-    color: $color-5;
-  }
-}
 
 /* -------------------------------- 
 
